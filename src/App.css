@@ -31,3 +31,23 @@
     transform: rotate(360deg);
   }
 }
+.mt-30{
+  margin-top: 30px;
+}
+.text-right{
+  float:   right;
+}
+.ml-5{
+  margin-left: 5px;
+}
+.fa-times-circle:before{
+  content: "\f057";
+}
+.sort_selected ::after{
+  content: '\2713';
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  margin: 0px 0px 0px 0px;
+  display: inline-block;
+}
